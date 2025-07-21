@@ -1,0 +1,2 @@
+text = "ys"
+print(text)
