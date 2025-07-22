@@ -8,7 +8,8 @@ num4 = "5"
 
 # TODO: Fix the data type issue below
 # Convert string variables to the correct type so the math works
-# Insert your code here
+num3 = int(num3)
+num4 = int(num4)
 
 # This will work fine
 print(num1 / num2)
