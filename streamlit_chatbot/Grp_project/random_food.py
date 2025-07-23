@@ -37,3 +37,39 @@ food_list = [
 if st.button("🎲 Give me a random food suggestion!"):
     random_food = random.choice(food_list)
     st.success(f"How about: {random_food}?")
+
+# --- Beverage Recommendation Section ---
+st.header("🥤 Beverage Recommendation System")
+
+# Dropdown
+drink_choice = st.selectbox("What kind of drink would you like?", 
+                            ["Select one", "Hot", "Cold", "Healthy", "Sweet", "Caffeinated"])
+
+def recommend_drink(drink_type):
+    if drink_type == "Hot":
+        return "☕ How about a cup of hot chocolate or tea?"
+    elif drink_type == "Cold":
+        return "🥤 Try iced lemon tea or a chilled soda!"
+    elif drink_type == "Healthy":
+        return "🍵 Maybe a green smoothie or coconut water!"
+    elif drink_type == "Sweet":
+        return "🧋 Try bubble tea or a caramel frappe!"
+    elif drink_type == "Caffeinated":
+        return "☕ A nice cup of coffee or espresso will do!"
+    else:
+        return ""
+
+if drink_choice != "Select one":
+    st.success(recommend_drink(drink_choice))
+
+# Random drink suggestion
+drink_list = [
+    "🧋 Bubble Tea", "☕ Coffee", "🍹 Mojito", "🍵 Matcha Latte",
+    "🥤 Cola", "🍊 Orange Juice", "🥛 Milkshake", "🧃 Apple Juice"
+]
+
+if st.button("🎲 Give me a random drink suggestion!"):
+    random_drink = random.choice(drink_list)
+    st.success(f"How about: {random_drink}?")
+
+
