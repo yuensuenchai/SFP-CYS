@@ -30,7 +30,16 @@ if choice != "Select one":
 # List of random food options
 food_list = [
     "🍕 Pizza", "🍣 Sushi", "🍜 Ramen", "🍛 Nasi Lemak", "🥗 Caesar Salad",
-    "🍔 Burger", "🍰 Cheesecake", "🥪 Sandwich", "🍝 Spaghetti", "🍤 Fried Prawns"
+    "🍔 Burger", "🍰 Cheesecake", "🥪 Sandwich", "🍝 Spaghetti", "🍤 Fried Prawns" , 
+    "🍳 Fried Eggs" , "🌮 Taco" , "🌯 Burrito" , "🥐 Croissant" , "🍞 Toast" , "🥓 Bacon" , 
+    "🍖 Sausage" , "🧀 Cheese slices" , "🥪 Breakfast Sandwich" , "🥯 Bagel with Cream Cheese" , 
+    "🥣 Cereal" , "🍚 Congee (Rice Porridge)" , "🍙 Rice Ball (Onigiri)" , "🍠 Sweet Potato" , 
+    "🍥 Fishball" , "🍅lasagna" , "🍮 Pudding" , "🍢 Oden" , "🫕 Malatang" , "🍳🥬 Omelette with Veggies" , 
+    "🍌 Banana" , "🍎 Apple slices" , "🍓 Strawberries" , "🫐 Blueberries" , "🍇 Grapes" , "🥝 Kiwi slices" , 
+    "🍍 Pineapple chunks" , "🧀 mac n cheese" , "🦑seafood" , "🍛japanese curry rice" , "🥚tamago" , "🫓roti canai" , 
+    "🥘 Curry Chicken Soup" , "🍱unagi don"  , "🥘kimchi jjigae" , "🍣sashimi" , "🍎🥧apple pie" , 
+    "🍰 Strawberry Shortcake", "👊🏻🥔mashed potato" , "🍫🎂 Chocolate Cake" , "🍡 Dango" , "🍫🧇 Chocolate Waffle",
+    "🌶️🥡chili panmee" , "🥪🫙🥜🍓Peanut Butter & Jam" , "🍦sundae" , "🌽🐶corn dog"
 ]
 
 # Show random recommendation
@@ -65,7 +74,11 @@ if drink_choice != "Select one":
 # Random drink suggestion
 drink_list = [
     "🧋 Bubble Tea", "☕ Coffee", "🍹 Mojito", "🍵 Matcha Latte",
-    "🥤 Cola", "🍊 Orange Juice", "🥛 Milkshake", "🧃 Apple Juice"
+    "🥤 Cola", "🍊 Orange Juice", "🥛 Milkshake", "🧃 Apple Juice" , "🍵🍓strawberry matcha latte" , 
+    "🥕carrot juice" ,"🍶rice wine" , "🍋‍🟩🍯honey lime juice" , "🍉🧃Watermelon Juice" , "☕️ Americano" , 
+     "🧉Coconut Water" , "🍷 Red Wine" , "🍷 Black Wine" , "🍾 Champagne" , "🧊 🍋 Ice Lemon Tea",
+    "🍇 Grape Juice" , "🌰chestnut drink" , "🥭 Mango Juice" , "💧 Mineral Water" , "🥤 Lychee Drink" , "🍸 Cocktail"
+    "🥤🍑Peach Nectar" , "🥃🍇🍓🫐mocktail"
 ]
 
 if st.button("🎲 Give me a random drink suggestion!"):
